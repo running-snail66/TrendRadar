@@ -141,6 +141,31 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
+    - id: "xinhua-energy"
+      name: "新华网能源"
+      url: "http://www.xinhuanet.com/energy/news_energy.xml"
+      max_age_days: 3
+
+    - id: "gnews-water-policy"
+      name: "水利政策（Google新闻）"
+      url: "https://news.google.com/rss/search?q=%E6%B0%B4%E5%88%A9%20%E6%94%BF%E7%AD%96%20OR%20%E6%B0%B4%E5%88%A9%E9%83%A8%20OR%20%E5%9B%BD%E5%AE%B6%E6%B0%B4%E7%BD%91&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      max_age_days: 3
+
+    - id: "gnews-water-energy-projects"
+      name: "水利能源项目（Google新闻）"
+      url: "https://news.google.com/rss/search?q=%E6%B0%B4%E5%88%A9%E5%B7%A5%E7%A8%8B%20OR%20%E6%8A%BD%E6%B0%B4%E8%93%84%E8%83%BD%20OR%20%E6%B0%B4%E7%94%B5%E7%AB%99%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E5%B7%A5&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      max_age_days: 3
+
+    - id: "gnews-energy-policy"
+      name: "能源政策（Google新闻）"
+      url: "https://news.google.com/rss/search?q=%E5%9B%BD%E5%AE%B6%E8%83%BD%E6%BA%90%E5%B1%80%20OR%20%E8%83%BD%E6%BA%90%E6%94%BF%E7%AD%96%20OR%20%E6%96%B0%E5%9E%8B%E7%94%B5%E5%8A%9B%E7%B3%BB%E7%BB%9F&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      max_age_days: 3
+
+    - id: "gnews-energy-tech"
+      name: "水利能源科技（Google新闻）"
+      url: "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD%20OR%20%E6%99%BA%E6%85%A7%E6%B0%B4%E5%88%A9%20OR%20%E6%95%B0%E5%AD%97%E5%AD%AA%E7%94%9F%E6%B0%B4%E5%88%A9%20%E7%A7%91%E6%8A%80&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      max_age_days: 3
+
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
